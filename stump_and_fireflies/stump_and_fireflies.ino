@@ -11,6 +11,7 @@ int strobe_count = 0;
 
 // byte target, current; // target and current pwm value
 
+int FADE_INTERVAL_1 = 	30; // [ms] time between fade steps
 int NEXTFADE_INTERVAL_1 = 1500; // [ms] time between fade cycles
 int FADE_INTERVAL_2 = 	30; // [ms] time between fade steps
 int NEXTFADE_INTERVAL_2 = 1500; // [ms] time between fade cycles
